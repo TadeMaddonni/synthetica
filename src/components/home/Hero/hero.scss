@@ -1,0 +1,43 @@
+.heroContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-inline: 10%;
+	.hero {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+
+		.titles {
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+			color: white;
+
+			h1 {
+				font-size: 64px;
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: 400;
+			}
+
+			span {
+				font-size: 16px;
+			}
+		}
+	}
+}
+@media (max-width: 650px) {
+	.heroContainer {
+		padding-inline: 20px;
+
+		.hero {
+			.titles {
+				h1 {
+					font-size: 32px;
+				}
+			}
+		}
+	}
+}
