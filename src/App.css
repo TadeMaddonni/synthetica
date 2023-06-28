@@ -17,12 +17,12 @@
 }
 .videoLoader {
 	height: 500px;
-	width: 500px;
+	width: 400px;
 }
 body {
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 }
 /* Hide scrollbar */
 .element::-webkit-scrollbar {
@@ -57,4 +57,24 @@ footer {
 }
 .disableScroll {
 	overflow: hidden;
+}
+
+.navigator {
+	text-decoration: none;
+	color: #fff;
+	font-size: 32px;
+}
+
+.navigator span {
+	display: flex;
+	align-items: center;
+}
+@media (max-width: 550px) {
+	.navigator {
+		font-size: 24px;
+	}
+	.videoLoader {
+		height: 300px;
+		width: 100%;
+	}
 }

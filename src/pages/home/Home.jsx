@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<>
 			<Topbar />
-			<main style={{ minHeight: "100vh" }}>
+			<main style={{ minHeight: "100vh", overflowX: "hidden" }}>
 				<Hero />
 				<Grid />
 			</main>
