@@ -12,7 +12,7 @@ const Welcoming = () => {
 				className="videoLoader"
 				muted
 				autoPlay
-				src="./src/assets/synthetica.mp4"
+				src="./synthetica.mp4"
 			></video>
 		</div>
 	);

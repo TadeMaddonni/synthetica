@@ -1,7 +1,3 @@
-import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import video from "./assets/synthetica.mp4";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Welcoming from "./components/welcome/Welcoming";
